@@ -102,22 +102,22 @@ void displayTreatmentOrder() {
 
 int main() {
     // Step 1: Add initial patients
-    insertPatient("John", 70);
-    insertPatient("Maria", 85);
-    insertPatient("Liam", 60);
-    insertPatient("Amina", 95);
-    insertPatient("Grace", 75);
-    insertPatient("David", 80);
+    insertPatient("Kenny", 70);
+    insertPatient("Kellia", 85);
+    insertPatient("Collette", 60);
+    insertPatient("Angel", 95);
+    insertPatient("Joi", 75);
+    insertPatient("Saiba", 80);
 
     displayQueue();
 
     // Step 2: Insert a new critical patient
-    printf("\nNew critical patient 'Elijah' with severity 96 arrives.\n");
-    insertPatient("Elijah", 96);
+    printf("\nNew critical patient 'Maxwell' with severity 96 arrives.\n");
+    insertPatient("Maxwell", 96);
     displayQueue();
 
-    // Step 3: Remove Elijah (transferred elsewhere)
-    printf("\nPatient 'Elijah' (severity 96) transferred elsewhere. Removing...\n");
+    // Step 3: Remove Maxwell (transferred elsewhere)
+    printf("\nPatient 'Maxwell' (severity 96) transferred...\n");
     removeBySeverity(96);
     displayQueue();
 

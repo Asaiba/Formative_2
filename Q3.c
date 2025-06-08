@@ -91,7 +91,7 @@ int main() {
     printf("\nTotal Construction Cost: %d\n", totalCost);
 
     // Step 6: Output Adjacency Matrix
-    printf("\nAdjacency Matrix of MST (0 = no connection):\n   ");
+    printf("\nAdjacency Matrix of MST :\n   ");
     for (int i = 0; i < VILLAGES; i++) printf("%c ", 'A' + i);
     printf("\n");
 
